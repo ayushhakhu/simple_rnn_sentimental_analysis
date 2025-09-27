@@ -20,7 +20,7 @@ def preprocess_text(text):
     return padded_review
 
 # Load Model file
-model = tf.keras.models.load_model('simple_rnn_imdb.h5')
+model = tf.keras.models.load_model('../simple_rnn_imdb.h5')
 
 
 # step 3 : predict sentiment
@@ -44,3 +44,4 @@ if st.button('Predict'):
 
 if __name__ == '__init__':
     main()
+
